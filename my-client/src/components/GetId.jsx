@@ -9,7 +9,7 @@ export function GetId() {
   async function getEmployee(e) {
     e.preventDefault();
     try {
-      const response = await axios.get(`http://localhost:3001/api/employees/${empId}`);
+      const response = await axios.get(`https://my-project-dv8u.onrender.com/api/employees/${empId}`);
       setEmp(response.data);
     } catch (err) {
       alert("Employee not found");
