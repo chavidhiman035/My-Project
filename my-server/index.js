@@ -4,6 +4,8 @@ const mongoose=require('mongoose');
 const cors = require('cors');
 const app=express();
 
+const port= "https://frontend-u44u.onrender.com";
+
 app.use(express.json());
 app.use(cors());
 async function connectDB() {
@@ -101,6 +103,6 @@ app.put('/api/employees/:id', async (req, res) => {
     }
 });
 
-app.listen(3001, () => {
+app.listen(port, () => {
     console.log("Server running on http://localhost:3001");
 });
