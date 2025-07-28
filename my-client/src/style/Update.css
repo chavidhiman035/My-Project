@@ -1,0 +1,105 @@
+/* Update.css */
+
+body {
+  body {
+  margin: 0 auto;
+  padding: 0;
+  background: linear-gradient(to right, #cce0ff, #e6f0ff);
+  font-family: 'Poppins', sans-serif;
+
+  /* This centers the inner box */
+  display: flex;
+ 
+           /* full screen height */
+}
+
+}
+
+/* Compact container */
+.container-update {
+  background-color: #ffffff;
+  width: 360px; /* reduced width */
+  padding: 25px 25px;
+  border-radius: 14px;
+  box-shadow: 0 6px 16px rgba(0, 102, 204, 0.1);
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Heading with underline */
+.update-heading {
+  font-size: 24px;
+  color: #005eb8;
+  font-weight: 700;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.update-heading::after {
+  content: "";
+  display: block;
+  width: 280px;
+  height: 3px;
+  background-color: #007bff;
+  margin: 6px auto 18px;
+  border-radius: 2px;
+}
+
+/* Form styling */
+.update-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2px; /* less vertical gap */
+  align-items: center;
+}
+
+.update-input {
+  width: 90%; /* smaller input width */
+  padding: 10px;
+  font-size: 15px;
+  border: 2px solid #cce0ff;
+  border-radius: 8px;
+  background-color: #f9fcff;
+  transition: border-color 0.3s ease;
+  outline: none;
+}
+
+.update-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.3);
+}
+
+/* Button styling */
+.update-button {
+  width: 90%;
+  padding: 10px;
+  font-size: 15px;
+  background: linear-gradient(to right, #4686d4, #3399ff);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.update-button:hover {
+  background: linear-gradient(to right, #b7bcc2, #007bff);
+  transform: translateY(-2px);
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .container-update {
+    width: 90%;
+    padding: 20px 15px;
+  }
+
+  .update-heading {
+    font-size: 22px;
+  }
+
+  .update-input,
+  .update-button {
+    width: 100%;
+  }
+}

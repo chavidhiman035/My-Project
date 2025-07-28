@@ -1,0 +1,109 @@
+/* GetAll.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #dbefff, #eef7ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Main Container */
+.getall-container {
+  background-color: #ffffff;
+  padding: 40px 50px;
+  border-radius: 20px;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Heading */
+.getall-heading {
+  font-size: 28px;
+  font-weight: 600;
+  color: #004e89;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Divider */
+.getall-divider {
+  height: 2px;
+  border: none;
+  background-color: #b3d9ff;
+  margin: 10px 0 25px;
+}
+
+/* Button */
+.getall-button {
+  background: linear-gradient(to right, #5dade2, #3498db);
+  color: #fff;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: block;
+  margin: 0 auto 25px;
+  box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
+}
+
+.getall-button:hover {
+  background: linear-gradient(to right, #3498db, #2e86c1);
+  transform: scale(1.03);
+}
+
+/* Table Wrapper */
+.getall-table-wrapper {
+  overflow-x: auto;
+}
+
+/* Table */
+.getall-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f9fbff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.getall-th,
+.getall-td {
+  padding: 14px 20px;
+  text-align: left;
+  border-bottom: 1px solid #e0eafc;
+  font-size: 15px;
+}
+
+.getall-th {
+  background-color: #e3f2fd;
+  color: #003c72;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.getall-td {
+  color: #2c3e50;
+}
+
+.getall-row:hover {
+  background-color: #d6ebff;
+  transition: 0.2s ease-in-out;
+}
+
+/* No Record Row */
+.getall-empty {
+  text-align: center;
+  padding: 20px;
+  color: #e8a6a6;
+  font-size: 16px;
+  font-style: italic;
+}

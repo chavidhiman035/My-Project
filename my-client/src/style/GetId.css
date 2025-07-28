@@ -1,0 +1,93 @@
+/* GetId.css */
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  background: linear-gradient(to right, #cce0ff, #e6f0ff);
+  font-family: 'Poppins', sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height for vertical centering */
+}
+
+/* Main Container */
+.getid-container {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Title */
+.getid-title {
+  font-size: 24px;
+  color: #003366;
+  margin-bottom: 10px;
+}
+
+/* Divider */
+.getid-divider {
+  border: 1px solid #99c2ff;
+  margin: 10px 0 20px;
+  display: block;
+  width: 280px;
+  height: 2px;
+  background-color: #494ceb;
+  margin: 0 auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+
+}
+
+/* Input Field */
+.getid-input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #a3c2f0;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #f5faff;
+}
+
+/* Button */
+.getid-button {
+  background-color: #3399ff;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.getid-button:hover {
+  background-color: #267acc;
+}
+
+/* Result Section */
+.getid-result {
+  margin-top: 20px;
+  background-color: #f0f7ff;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #c2dbff;
+}
+
+.getid-subtitle {
+  font-size: 20px;
+  color: #004080;
+  margin-bottom: 10px;
+}
+
+.getid-text {
+  font-size: 16px;
+  color: #003366;
+  margin: 5px 0;
+}

@@ -1,0 +1,85 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #cacfd6, #5776e4); /* Attractive gradient */
+  min-height: 100vh;
+}
+
+/* Main Container */
+.app-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Heading Box */
+.heading {
+  text-align: center;
+  padding: 20px;
+  background-color: #cbedfc;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  position: relative;
+}
+
+/* Heading Text */
+.heading h2 {
+  font-size: 30px;
+  color: #003c72;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* Underline Below Heading */
+.heading::after {
+  content: "";
+  display: block;
+  width: 700px;
+  height: 4px;
+  background-color: #494ceb;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+/* Navigation Links */
+.nav-links nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  padding: 12px 20px;
+  background-color: #3399ff; /* Keep button color */
+  color: white;
+  border-radius: 10px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(51, 153, 255, 0.2);
+}
+
+.nav-links a:hover {
+  background-color: #267acc;
+  transform: scale(1.05);
+}
+
+.nav-links a.active {
+  background-color: #005fa3;
+  box-shadow: 0 4px 12px rgba(0, 95, 163, 0.3);
+}
+
+/* Routes Container */
+.routes {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
